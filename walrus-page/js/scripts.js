@@ -13,8 +13,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $(".trick").click(function() {
-    $("img").fadeOut();
-    $("p").fadeOut();
-    $(".tricktext").fadeIn("slow");
+    $("img").fadeOut(3000);
+    $("p").fadeOut(3000);
+    $(".tricktext").fadeIn(3000);
   });
 });
