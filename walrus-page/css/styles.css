@@ -1,5 +1,52 @@
+.picture-hidden {
+  display: none;
+}
+
 img {
   width: 400px;
   height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
+.clickable{
+  cursor: pointer;
+  color: #0088CC;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.slider {
+  cursor: pointer;
+  color: #0088CC;
+}
+
+.slider:hover {
+  text-decoration: underline;
+}
+
+.droptext {
+  display: none;
+}
+
+.trick{
+  cursor: pointer;
+  color: #0088CC;
+}
+
+.trick:hover {
+  text-decoration: underline;
+}
+
+.tricktext{
   display: none;
 }
